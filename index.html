@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/WebPage">
+
 <head>
     <meta charset="UTF-8">
     <title>Moon Seok Hyun</title>
+</head>
 
 <!--Code Starts Here-->
 </head>
+
+<!--Style-->
+<style>
+    body {
+        background-color:white;
+    }
+    h1 {
+        color: black;
+    }
+</style>
+
 <body>
+    <header>
+        <h1>Moon Seok Hyun</h1>
+        <!--image-->
+        <img src="pic.png" alt="사진" style="float:left; width: 150px; margin-right: 10%;">
+    </header>
+    
     <!--Navigation-->
     <nav>
         <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Work Experience</a></li>
-          <li><a href="#">Achievements & Activities</a></li>
-          <li><a href="timetable.html">Schedule</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Work Experience</a></li>
+            <li><a href="#">Achievements & Activities</a></li>
+            <li><a href="timetable.html">Schedule</a></li>
         </ul>
     </nav>
-
-    <h1>Moon Seok Hyun</h1>
-
-    <!--image-->
-    <img src="pic.png" alt="사진" style="float:left; width: 150px; margin-right: 10%;">
     
+    <!-- Contact-->
+    <aside>
+        <a href="Contact"><h2>Contact</h2></a>
+        <p>
+            Phone
+            <li><a href="tel:010-****-****"> +82 010-****-****</a></li>
+            Email
+            <li><a href="mailto: example@yonsei.ac.kr">example@yonsei.ac.kr</a></li>
+            Address
+            <li><i><ins>##-## Yeonhui-ro ##-gil, Seodaemun-gu, Seoul, Republic of Korea</ins></i></li> 
+        </p>
+    </aside>       
+
     <main>
-        <!-- Contact-->
-        <section>
-            <aside>
-                <a href="Contact"><h2>Contact</h2></a>
-                <p>
-                    Phone
-                    <li><a href="tel:010-****-****"> +82 010-****-****</a></li>
-
-                    Email
-                    <li><a href="mailto: example@yonsei.ac.kr">example@yonsei.ac.kr</a></li>
-
-                    Address
-                    <li><i><ins>##-## Yeonhui-ro ##-gil, Seodaemun-gu, Seoul, Republic of Korea</ins></i></li> 
-                </p>
-            </aside>
-            
-        </section>
-
         <!--Education-->
         <section>
             <h2><ins>Education</ins></h2>
@@ -108,7 +118,109 @@
         <!--Time Table-->
         <nav>
             <p>
-                <h3><ins>Schedule</ins></h3>
+        
+                <h1><ins>Schedule</ins></h1>
+
+                <style>
+                    table {
+                        border-collapse: 1px solid black; color:black;
+                        padding: 1px;
+                    }
+                    td {
+                        border:2px solid; color: grey;
+                        padding: 1px;
+                        text-align: center;
+                    }
+                    th {
+                        background-color: #04AA6D;
+                        color: white;
+                        padding: 15px;
+                        text-align: center;
+                    }
+                </style>
+                <h2>2022 Seceond Semester Time Table</h2>
+                
+                <table style="width:100%">
+                    <tr>
+                        <th>시간</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>교시</th>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td rowspan="2">바이오생활화학2</td>
+                        <td> </td>
+                        <td>바이오생활화학2</td>
+                        <td rowspan="3">응용자료구조</td>
+                        <td> </td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td rowspan="3">데이터분석개론</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td rowspan="3">정보프로그래밍1</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="3">웹프로그래밍</td>
+                        <td></td>
+                        <td></td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="3">데이터베이스개론</td>
+                        <td></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>9</td>
+                    </tr>
+                </table>
             </p>
         </nav>
 
