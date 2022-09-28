@@ -4,18 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Moon Seok Hyun</title>
-    <link rel="style" href="style.css"> <!--External CSS-->
+    <link rel="stylesheet" href="style.css"> <!--External CSS-->
 </head>
 
 <!--Code Starts Here-->
 
 <!--Style-->
 <style>
-    h1 {
-        color: black;
+    header {
+        background-color: lightgray;
+        padding: 1px;
+        border: 1px solid black;
+        font-size:large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
     }
-    h2 {
-        
+
+    img {
+        border: 1px solid black;
+        float: right;
+        width: 150px;
+        margin-top: 15px;
+        margin-right: 3px;
     }
 </style>
 
@@ -23,7 +33,7 @@
     <header>
         <h1>Moon Seok Hyun</h1>
         <!--image-->
-        <img src="pic.png" alt="사진" style="float:left; width: 150px; margin-right: 10%;">
+        <img src="pic.png" alt="사진">
     </header>
     
     <!--Navigation-->
@@ -41,14 +51,15 @@
     <!--Contact-->
     <!--Inline CSS-->
     <aside>
-        <h2 style="color:aliceblue">Contact</h2>
-        <p style="color: dimgray;">
+        <h2 style="color:black">Contact</h2>
+        <p style="color: black;">
             Phone
             <li><a href="tel:010-****-****"> +82 010-****-****</a></li>
             Email
             <li><a href="mailto: example@yonsei.ac.kr">example@yonsei.ac.kr</a></li>
             Address
             <li><i><ins>##-## Yeonhui-ro ##-gil, Seodaemun-gu, Seoul, Republic of Korea</ins></i></li> 
+            <hr>
         </p>
     </aside>       
 
@@ -59,10 +70,10 @@
             <p>Bachelor of Engineering in Applied Information Engineering Major at <a href="https://www.yonsei.ac.kr"><b>Yonsei University</b></a>
                 <pre>09/2019 - present         Curent Cumulative GPA : <mark>4.1/4.5</mark></pre>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.523515267635!2d126.9410342150055!3d37.56628843190066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9888a0502aa1%3A0x42dbb2e2da6ab54b!2zU2VvdWwsIERhZXNpbi1kb25nLCDsl7DshLjrjIDtlZnqtZAg7IOI7LKc64WE6rSA!5e0!3m2!1sen!2skr!4v1663738880306!5m2!1sen!2skr" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                width="575" height="450" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 High School Diploma at <a href="https://isqchina.com/"><b>International School of Qingdao</b></a>
                 <pre>10/2016 - 06/2019         Curriculum : SAT, AP</pre>
+                <hr>
             </p>
         </section>
 
@@ -102,6 +113,7 @@
                     </li>
         
                 </ul>
+                <hr>
             <p>
         </section>
         
@@ -124,18 +136,15 @@
                 <!--Internal-->
                 <style>
                     table {
-                        border-collapse: 1px solid black; color:black;
-                        padding: 1px;
+                        
                     }
                     td {
                         border:2px solid; color: grey;
-                        padding: 1px;
                         text-align: center;
                     }
                     th {
                         background-color: #04AA6D;
                         color: white;
-                        padding: 15px;
                         text-align: center;
                     }
                 </style>
