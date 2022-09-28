@@ -1,0 +1,21 @@
+head {
+    background-color: blue;
+}
+
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+    background-color: grey;
+}
+
+aside {
+    background-color: blue;
+}
+
+p {
+    border: 2px solid blue;
+    padding: 30px;
+    margin: ;
+}
+
