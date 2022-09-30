@@ -1,6 +1,8 @@
 body {
     background-color: whitesmoke;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid;
+    padding: 5px;
 }
 
 nav {
