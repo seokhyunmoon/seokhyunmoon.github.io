@@ -1,33 +1,78 @@
-body {
-    background-color: whitesmoke;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid;
-    padding: 10px;
-}
+/* Index.html */
 
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
-    padding: 40px;
-    text-align: left;
-}
-
-aside {
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-section {
-    
-}
-
-article {
-    padding: 10px;
-}
-
+/* Footer */
 footer {
-    position: absolute;
-    padding:25px;
-    color: lightgrey;
+    background-color: #f2f2f2;
+    padding: 25px;
+    color: #555555;
+}
+  
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+    display: none; 
+    }
+}
+
+/* Navigation Bar */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    font: 10px;
+}
+
+/* Main Page */
+
+main {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {font-size: 16px;}
+    .margin {margin-bottom: 45px;}
+    .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 { 
+background-color: #ffffff; /* White */
+color: #555555;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+/* Cities */
+.swiper {
+    width: 625px;
+    height: 500px;
+    padding-top: 10px;
+}
+
+.swiper-slide {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
